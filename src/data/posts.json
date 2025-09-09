@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Getting Started with Vue 3",
+      "date": "2024-03-20",
+      "author": "John Doe",
+      "image": "https://picsum.photos/800/400",
+      "summary": "Learn the basics of Vue 3 and its composition API in this comprehensive guide.",
+      "content": "Vue 3 introduces the composition API, which provides a more flexible way to organize component logic. This new API allows for better code reuse and improved TypeScript support. In this post, we'll explore the key concepts and best practices for building applications with Vue 3."
+    },
+    {
+      "id": 2,
+      "title": "Mastering Bootstrap 4",
+      "date": "2024-03-19",
+      "author": "Jane Smith",
+      "image": "https://picsum.photos/800/401",
+      "summary": "Discover the power of Bootstrap 4 for building responsive web applications.",
+      "content": "Bootstrap 4 is a powerful CSS framework that makes it easy to create responsive, mobile-first websites. In this tutorial, we'll cover the grid system, components, utilities, and best practices for creating beautiful user interfaces."
+    }
+  ]
+}
