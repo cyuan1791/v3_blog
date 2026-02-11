@@ -82,6 +82,9 @@ const filteredPosts = computed(() => {
 .search-bar .input-group-text {
   border-radius: 50px 0 0 50px;
   border-color: #ced4da;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 .search-bar .form-control {
