@@ -11,7 +11,7 @@
 <style lang="css">
 
 .fade-enter-from,
-.fade-button-leave-to {
+.fade-leave-to {
   opacity: 0;
 }   
       
