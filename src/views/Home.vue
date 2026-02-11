@@ -5,6 +5,8 @@ import BlogPost from "../components/BlogPost.vue";
 let myWindow = window as any;
 let postData = JSON.parse(atob(myWindow.asoneData));
 let posts: any = { posts: postData };
+let postTitle = myWindow.blogTitle;
+let postSubtitle = myWindow.blogSubtitle;
 
 const searchQuery = ref("");
 
@@ -24,8 +26,8 @@ const filteredPosts = computed(() => {
   <div>
     <div class="hero-section text-center text-white py-5 mb-4">
       <div class="container">
-        <h1 class="hero-title mb-2">{{ myWindow.blogTitle }}</h1>
-        <p class="hero-subtitle mb-4">{{ myWindow.blogSubtitle }}</p>
+        <h1 class="hero-title mb-2" v-html="postTitle"></h1>
+        <p class="hero-subtitle mb-4" v-html="postSubtitle"></p>
         <div class="row justify-content-center">
           <div class="col-lg-6 col-md-8">
             <div class="input-group search-bar">
