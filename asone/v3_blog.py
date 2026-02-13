@@ -21,7 +21,6 @@ Phasellus iaculis neque
 Purus sodales ultricies
 """
 LongDesc = ShortDesc + ShortDesc + ShortDesc + ShortDesc
-Blog = LongDesc + LongDesc + LongDesc + LongDesc + LongDesc
 ImgPath = 'https://image.webcmsb.com/images/'
 
 
@@ -52,9 +51,7 @@ class importedMod(npmVscode):
                 {'Name': 'uimage', 'Order': 210, 'Desc': '360x300', 'Width': 360, 'Height': 300, 'Type': 'SelImage', 'Option': 'JSON'},
                 {'Name': 'image', 'Order': 220, 'Desc': '200x200', 'Width': 200, 'Height': 200, 'Type': 'SelImage', 'Option': 'JSON'},
             ],
-            'ModDoc': """
-<h2> This module has one block per boxe<h2>
-""",
+            'ModDoc': "",
             'Var': {
                 'height': 600,
                 'width': 1440,
@@ -65,13 +62,7 @@ class importedMod(npmVscode):
                 'insertOrder': 'top',
                 'SlideType': [],
                 'SlidePri': {},
-                'Multi-Help': """
-                <h4>An extra initial setup is required.</h4>
-                <ul>
-                <li>Update the website <li>
-                <li>Use NPM button and click npm_install_build_clean to rebuild.</li>
-                </ul>
-""",
+                'Multi-Help': "",
                 'Multi-HeadInc': '',
                 'Multi-GPostInc': "",
             },
